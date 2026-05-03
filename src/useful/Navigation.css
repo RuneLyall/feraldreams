@@ -1,0 +1,29 @@
+/* Navigation.css */
+.nav-container {
+    display: flex; /* Makes children (links) sit side-by-side */
+    justify-content: space-around; /* Spreads links out evenly across the bar */
+    align-items: center; /* Vertically centers links */
+    padding: 0;
+    background-color: #333; /* Just so you can see the bar */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-link {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: 1px solid silver;
+    color: white;
+    text-decoration: none; /* Removes the default underline */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #444;
+    color: #61dafb;
+    transition: background 0.2s ease;
+}

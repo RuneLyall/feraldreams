@@ -1,0 +1,152 @@
+[
+    {
+        "id": "werewolf",
+        "title": "Werewolf",
+        "content": "A werewolf (from Old English werwulf, 'man-wolf') is a mythological or folkloric human with the ability to shapeshift into a wolf or a therianthropic (hybrid) wolf-like creature, either voluntarily or involuntarily. While often associated with the full moon in modern fiction, historical folklore often linked the transformation to witchcraft, curses, or magical artifacts.",
+        "tags": ["creature", "beast", "predator", "mythological"],
+        "type": "Folklore",
+        "author": "",
+        "license": "",
+        "source": ""
+    },
+    {
+        "id": "dragon",
+        "title": "Dragon",
+        "content": "Most sources agree there are at least 12 types of dragons.\nThese range from what Western culture typically thinks of as dragons as large, winged, four-legged beasts that sometimes breathe fire - to more exotic-looking creatures like the Quetzalcoatl - a serpent with bird feathers. Most of the legends and myths about dragons describe them as enemies of humans, but some of them actually provide assistance and even good fortune. Below is a full list of the dragon types this guide explores.\nDragon\nDrake\nWyvern\nWyrm\nCockatrice\nAmphiptere\nQuetzalcoatl\nSea Serpent\nLindwurm\nSalamander\nChinese Dragon\nHydra",
+        "tags": ["creature", "flying", "mythological", "colossal", "dragon"],
+        "type": "Mythology",
+        "author": "",
+        "license": "",
+        "source": ""
+    },
+    {
+        "id": "slime",
+        "title": "Slime",
+        "content": "Slimes, also known as Ooze, Blobs, Goo, and other names, are common monsters found throughout fantasy, science fiction, and horror fiction. They are commonly depicted as shapeshifting, gelatinous, amorphous creatures that prey on other creatures. Though not common in myth or religion, the Nuppeppo from Japanese folklore were fat, slime-like monsters that smell of rotting flesh and wander graveyards and temples. The legend states that those able to kill one and eat its foul-smelling flesh gain everlasting youth.",
+        "tags": ["creature", "amorphous", "fantasy", "monster"],
+        "type": "Fantasy",
+        "author": "",
+        "license": "",
+        "source": ""
+    },
+    {
+        "id": "minotaur",
+        "title": "Minotaur",
+        "content": "The Minotaur (Greek: ὁ Μῑνώταυρος) are powerful, monstrous creatures that have the head and tail of a bull and a huge muscular humanoid body of a man. They are one of the most famous monsters in Greek mythology.",
+        "tags": ["creature", "humanoid", "mythological"],
+        "type": "Mythology",
+        "author": "",
+        "license": "",
+        "source": ""
+    },
+    {
+        "id": "skinwalker",
+        "title": "Skinwalker",
+        "content": "Skinwalkers are individuals and/or creatures that possess the supernatural ability to transform into any animal they desire. They were originally a type of harmful witch but were recently classified as a creature of the night.",
+        "tags": ["creature", "shapeshifter", "folklore", "supernatural"],
+        "type": "Folklore",
+        "author": "",
+        "license": "",
+        "source": ""
+    },
+    {
+        "id": "scp-1471",
+        "title": "SCP-1471",
+        "content": "Object Class: Euclid\nSpecial Containment Procedures: All mobile devices that have SCP-1471 installed are to be confiscated and analyzed for any potential leads to other possibly affected devices. Afterwards, affected devices are to have their batteries removed, be assigned a designation (e.g. SCP-1471-#), and be placed in Storage Unit-91 at Research Site-45.\nAll online application stores for mobile devices are to be monitored to prevent any inadvertent sales of SCP-1471. Suspected devices are to be targeted using self-uploading malware in order to disable the device until it can be seized by field agents.\nDescription: SCP-1471 is a free 9.8MB application for mobile devices named 'MalO ver1.0.0' in online application stores. SCP-1471 has no listed developer and is somehow able to bypass the application approval process to go directly to distribution. SCP-1471 is also able to avoid removal by other program manager applications.",
+        "tags": [
+            "monster",
+            "liminal entity",
+            "scp",
+            "1471",
+            "demonic",
+            "technology"
+        ],
+        "type": "SCP",
+        "author": "LurkD",
+        "license": "CC BY-SA",
+        "source": "https://scp-wiki.wikidot.com/scp-1471"
+    },
+    {
+        "id": "kitsune",
+        "title": "Kitsune",
+        "content": "Kitsunes are mythical creatures from Japanese folklore. They are intelligent foxes that possess paranormal abilities that increase as they get older and wiser. According to some legends, kitsune can have up to nine tails, with each tail representing a century of life and an increase in power. Kitsune are often depicted as tricksters, but they can also be loyal guardians, friends, and lovers.",
+        "tags": ["creature", "fox", "mythological", "shapeshifter"],
+        "type": "Folklore",
+        "author": "",
+        "license": "",
+        "source": ""
+    },
+    {
+        "id": "sasquatch",
+        "title": "Sasquatch",
+        "content": "Sasquatch, also known as Bigfoot, is a legendary creature said to inhabit forests, mainly in the Pacific Northwest region of North America. It is typically described as a large, hairy, bipedal humanoid. The existence of Sasquatch is not supported by scientific evidence, and it is generally considered a combination of folklore, misidentification, and hoaxes.",
+        "tags": ["creature", "bigfoot", "mythological", "cryptid"],
+        "type": "Folklore",
+        "author": "",
+        "license": "",
+        "source": ""
+    },
+    {
+        "id": "scp-682",
+        "title": "SCP-682",
+        "content": "Object Class: Keter\nSpecial Containment Procedures: SCP-682 is to be contained in a 5 m x 5 m x 5 m airtight steel container, lined with lead at all times. The container is to be filled with hydrochloric acid at all times. No fewer than 3 (three) personnel are to be stationed outside the container at all times, armed with fire axes and M4A1 assault rifles, and are to be authorized to use lethal force if SCP-682 breaches containment.\nDescription: SCP-682 is a large, vaguely reptile-like creature of unknown origin. It appears to be extremely intelligent, and was observed to engage in complex problem solving to escape containment. SCP-682 has always been hostile, and refers to humans as 'prey' or 'food'. SCP-682 has the ability to rapidly regenerate, and can adapt to and survive in any environment.",
+        "tags": ["monster", "reptile", "scp", "682", "demonic", "regeneration"],
+        "type": "SCP",
+        "author": "Dr Gears and Epic Phail Spy",
+        "license": "CC BY-SA",
+        "source": "https://scp-wiki.wikidot.com/scp-682"
+    },
+    {
+        "id": "oni",
+        "title": "Oni",
+        "tags": ["creature", "demon", "mythological", "japanese"],
+        "type": "Folklore",
+        "author": "",
+        "license": "",
+        "source": "https://yokai.com/oni/",
+        "content": " Oni are one the greatest icons of Japanese folklore. They are typically large and scary, standing taller than the tallest man, and sometimes taller than trees. They come in many varieties, but are most commonly depicted with red or blue skin, wild hair, two or more horns, and fang-like tusks. Other variations exist in different colors and with different numbers of horns, eyes, or fingers and toes. They wear loincloths made of the pelts of great beasts. All oni possess extreme strength and constitution, and many of them are accomplished sorcerers. They are ferocious demons, bringers of disaster, spreaders of disease, and punishers of the damned in hell."
+    },
+    {
+        "id": "ghost",
+        "title": "Ghost",
+        "tags": [
+            "demonic",
+            "mythological",
+            "folklore",
+            "liminal entity",
+            "humanoid",
+            "creature"
+        ],
+        "type": "Various",
+        "author": "",
+        "license": "",
+        "source": "",
+        "content": "Ghosts are one of the most varied and honestly hard to classify or quantify entities out there. They come in literally all shapes and sizes and in some cultures even plants, animals and monsters could have ghosts. Some are considered wholly evil, while others are benevolent and caring. Ghosts are in almost every culture somewhere, and can be considered but not limited to; monsters, demons, apparitions, specters, this list could go on for a long time."
+    },
+    {
+        "id": "wendigo",
+        "title": "Wendigo",
+        "tags": ["monster", "folklore", "demonic", "humanoid", "corruption"],
+        "type": "Folklore",
+        "author": "",
+        "license": "",
+        "source": "",
+        "content": "wendigo, a mythological cannibalistic monster in the spiritual tradition of North American Algonquian-speaking tribes. It is associated with winter and described as either a fearsome beast that stalks and eats humans or as a spirit that possesses humans, causing them to turn into cannibals. While other tribes believed one would usually become a windigo as punishment for dishonorable or taboo activities, such as engaging in cannibalism due to starvation or out of pure desperation or insanity. It would seem the most widely held belief is centered around turning to cannibalism due to starvation however."
+    },
+    {
+        "id": "vampire",
+        "title": "Vampire",
+        "tags": [
+            "monster",
+            "folklore",
+            "mythological",
+            "humanoid",
+            "shapeshifter"
+        ],
+        "type": "Mythology",
+        "author": "",
+        "license": "",
+        "source": "",
+        "content": "Vampires are present in many mythos, stretching from anglo-european to slavic lore. At one point there was even a belief it was a real condition brought about by disease. Across the years vampires have changed, many many times, the classic Vlad the Impaler was one interpretation of the myth that caught on widely then it the past hundred years or so it has exploded into the mainstream in more ways than one and more often than not. eg: 'Interview with a Vampire' and 'Twlight'."
+    }
+]

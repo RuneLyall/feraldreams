@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gunmetal: #36393bff;
+    --color-lilac-ash: #9e90a2ff;
+    --color-tea-green: #c9dbbaff;
+    --color-sky-aqua: #51d6ffff;
+    --color-olive: #6f7c12ff;
+
+    --color-amber-gold-50: #fff7e5;
+    --color-amber-gold-100: #fff0cc;
+    --color-amber-gold-200: #ffe099;
+    --color-amber-gold-300: #ffd166;
+    --color-amber-gold-400: #ffc233;
+    --color-amber-gold-500: #ffb300;
+    --color-amber-gold-600: #cc8f00;
+    --color-amber-gold-700: #996b00;
+    --color-amber-gold-800: #664700;
+    --color-amber-gold-900: #332400;
+    --color-amber-gold-950: #241900;
+
+    --color-platinum-50: #f0f3f4;
+    --color-platinum-100: #e1e6ea;
+    --color-platinum-200: #c4cdd4;
+    --color-platinum-300: #a6b4bf;
+    --color-platinum-400: #899ba9;
+    --color-platinum-500: #6b8294;
+    --color-platinum-600: #566876;
+    --color-platinum-700: #404e59;
+    --color-platinum-800: #2b343b;
+    --color-platinum-900: #151a1e;
+    --color-platinum-950: #0f1215;
+
+    --color-deep-lilac-50: #f2eef6;
+    --color-deep-lilac-100: #e5deed;
+    --color-deep-lilac-200: #cabddb;
+    --color-deep-lilac-300: #b09cc9;
+    --color-deep-lilac-400: #967ab8;
+    --color-deep-lilac-500: #7c59a6;
+    --color-deep-lilac-600: #634785;
+    --color-deep-lilac-700: #4a3663;
+    --color-deep-lilac-800: #312442;
+    --color-deep-lilac-900: #191221;
+    --color-deep-lilac-950: #110c17;
+
+    --color-pine-teal-50: #e7fdf9;
+    --color-pine-teal-100: #d0fbf3;
+    --color-pine-teal-200: #a0f8e8;
+    --color-pine-teal-300: #71f4dc;
+    --color-pine-teal-400: #41f1d1;
+    --color-pine-teal-500: #12edc5;
+    --color-pine-teal-600: #0ebe9e;
+    --color-pine-teal-700: #0b8e76;
+    --color-pine-teal-800: #075f4f;
+    --color-pine-teal-900: #042f27;
+    --color-pine-teal-950: #02211c;
+
+    --color-coffee-bean-50: #f5eff1;
+    --color-coffee-bean-100: #ebe0e2;
+    --color-coffee-bean-200: #d8c0c5;
+    --color-coffee-bean-300: #c4a1a9;
+    --color-coffee-bean-400: #b0828c;
+    --color-coffee-bean-500: #9d626f;
+    --color-coffee-bean-600: #7d4f59;
+    --color-coffee-bean-700: #5e3b43;
+    --color-coffee-bean-800: #3f272c;
+    --color-coffee-bean-900: #1f1416;
+    --color-coffee-bean-950: #160e10;
+}
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html,
+body {
+    background-color: var(--color-coffee-bean-900);
+}
+
+@layer components {
+    .page-full {
+        @apply w-full flex justify-center min-w-0 min-h-0;
+    }
+    .page-container {
+        @apply w-[90%] max-w-7xl py-6;
+    }
+
+    .page-title {
+        @apply text-center text-4xl font-bold mb-6 text-olive;
+    }
+    .page-text {
+        @apply text-deep-lilac-300 text-lg leading-relaxed pb-3;
+    }
+    .page-extra-text {
+        @apply text-cyan-400 text-lg leading-relaxed;
+    }
+    .wufftitle {
+        @apply text-tea-green text-center text-4xl font-bold mb-6;
+    }
+    .wufftext {
+        @apply text-blue-600 text-lg leading-relaxed;
+    }
+    .page-deeper {
+        @apply text-sky-aqua text-lg whitespace-break-spaces leading-relaxed;
+    }
+    .entry-grid {
+        @apply grid gap-6  p-4 w-full max-w-7xl mx-auto grid-cols-[repeat(auto-fill,minmax(250px,1fr))];
+    }
+    .subtle-link {
+        @apply text-[#d0f0ff] no-underline transition-[text-shadow,color] duration-200 ease-in-out;
+    }
+    .subtle-link:hover {
+        @apply text-[#ffffff] text-shadow-sm text-shadow-[#b4f0ff]/60;
+    }
+    .divider {
+        @apply h-px border-t border-green-600 w-full grow mx-4;
+    }
+}
+.disclaimer-box {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    background: #1a1a1a;
+    border: 2px dashed #b30000; /* claw‑mark energy */
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(179, 0, 0, 0.4);
+}
+
+.disclaimer-text {
+    color: #fff;
+    font-size: 0.95rem;
+    margin: 0.5rem 0;
+}

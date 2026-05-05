@@ -1,21 +1,13 @@
-import { Link } from "react-router-dom";
+import NavItem from "./navItem";
 import "./Navigation.css";
 
 export default function Navigation() {
     return (
-        <nav className="nav-container">
-            <Link to="/" className="nav-link">
-                Home
-            </Link>
-            <Link to="/glade" className="nav-link">
-                The Glade
-            </Link>
-            <Link to="/falling" className="nav-link">
-                Falling...
-            </Link>
-            <Link to="/about" className="nav-link">
-                About A Puppy
-            </Link>
+        <nav className="flex justify-around items-center p-0 sticky top-0 bg-[#333] z-50">
+            <NavItem to="/">Home</NavItem>
+            <NavItem to="/glade">The Glade</NavItem>
+            <NavItem to="/falling">Falling...</NavItem>
+            <NavItem to="/about">About</NavItem>
         </nav>
     );
 }

@@ -8,7 +8,7 @@ import Wiki from "./pages/Wiki";
 import CreatureDetails from "./pages/CreatureDetails";
 import Falling from "./pages/Falling";
 import Layout from "./useful/Layout";
-
+import Gallery from "./pages/gallery";
 import Password from "./pages/pw";
 
 export default function App() {
@@ -17,13 +17,14 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Landing />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/glade" element={<Glade />} />
-                    <Route path="/falling" element={<Falling />} />
-                    <Route path="/wiki" element={<Wiki />} />
-                    <Route path="/sandbox" element={<Password />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="glade" element={<Glade />} />
+                    <Route path="falling" element={<Falling />} />
+                    <Route path="wiki" element={<Wiki />} />
+                    <Route path="gallery" element={<Gallery />} />
+                    <Route path="sandbox" element={<Password />} />
                     <Route
-                        path="/CreatureDetails/:id"
+                        path="CreatureDetails/:id"
                         element={<CreatureDetails />}
                     />
                 </Route>

@@ -15,7 +15,7 @@ export default function Landing() {
                 <Divide />
                 <p className="page-text">
                     To your left a small{" "}
-                    <Link to="/Glade" className="subtle-link">
+                    <Link to="/glade" className="subtle-link">
                         glade
                     </Link>
                     , a peace amongst the trees with a view of the stars and a
@@ -30,11 +30,17 @@ export default function Landing() {
                     To your right, you will find a place of strange energy,
                     where the laws of space and time sometimes don't obey what
                     they should. If you{" "}
-                    <Link to="/Falling" className="subtle-link">
+                    <Link to="/falling" className="subtle-link">
                         venture
                     </Link>{" "}
                     that way, I'm not sure where you will end up, but it could
                     be fun regardless.
+                </p>
+                <p className="page-text">
+                    Feel free to wander, try not to break anything but if ya do
+                    oh well, life goes on. To those here from places where I'm
+                    not really known, nice ta meetcha, to those that do know me,
+                    well, welcome to you too of course.
                 </p>
                 <p className="page-text text-sky-800">
                     In the back, well, only those that know me unlock the space

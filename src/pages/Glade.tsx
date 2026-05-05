@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Glade() {
     return (
         <main className="page-full">
@@ -10,6 +11,11 @@ export default function Glade() {
                     keep my thoughts and my visions, this is where you will find
                     the things I work on, the ideas I have, and the stuff I
                     sometimes don't say outloud
+                </p>
+                <p className="page-text">
+                    Wanted to make this section for a long long time, so here it
+                    is, I'm not a pro photographer, I don't try to be, but I
+                    love nature, so, here. <Link to="/gallery">Gallery</Link>
                 </p>
                 <p className="page-text">
                     In essence, this is where all the random projects, the
@@ -33,7 +39,7 @@ export default function Glade() {
                         href="https://github.com/RuneLyall"
                         target="_blank"
                         rel="noopener noreferrer">
-                        Nothing for Now
+                        Nothing for Now(GitHub)
                     </a>
                 </p>
             </div>

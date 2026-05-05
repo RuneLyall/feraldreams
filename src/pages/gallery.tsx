@@ -40,7 +40,7 @@ export default function Gallery() {
 
     return (
         <>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 min-w-0">
                 {photos.length <= 0 ? (
                     <p>No Photo's Found Sorry</p>
                 ) : (

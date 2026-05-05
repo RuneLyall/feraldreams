@@ -1,0 +1,193 @@
+[
+    {
+        "id": 1,
+        "name": "Bread Maker Bread",
+        "ingredients": [
+            {
+                "amount": 1.5,
+                "unit": "cups",
+                "item": "Water 26.7 to 32.2 Degrees C (80-90F)"
+            },
+            {
+                "amount": 3,
+                "unit": "tbsp",
+                "item": "Unsalted Butter or Margarine (cut into pieces)"
+            },
+            {
+                "amount": 1,
+                "unit": "tbsp",
+                "item": "Sugar"
+            },
+            {
+                "amount": 3,
+                "unit": "tbsp",
+                "item": "Dry skim milk powder"
+            },
+            {
+                "amount": 1.25,
+                "unit": "tsp",
+                "item": "Salt"
+            },
+            {
+                "amount": 4,
+                "unit": "cups",
+                "item": "Bread flour"
+            },
+            {
+                "amount": 1.25,
+                "unit": "tsp",
+                "item": "Bread machine yeast"
+            }
+        ],
+        "steps": [
+            "Measure ingredients into bread pan in the order listed.",
+            "Insert bread pan securely into baking chamber; close lid. Plug unit into wall outlet.",
+            "Select WHITE. Choose loaf size and desired crust color. Press START button.",
+            "The complete signal will sound when bread is done.",
+            "Using pot holders remove bread pan from baking chamber and carefully remove bread from pan. (If kneading paddle remains in bread, remove paddle once bread has cooled.)",
+            "Allow bread to cool on a wire rack until ready to serve (at least 20 minutes)",
+            "Makes 1 loaf"
+        ],
+        "tags": ["bread", "bread machine", "quick"],
+        "makes": "1 Loaf"
+    },
+    {
+        "id": 2,
+        "name": "Cinnamon Raisin Bread",
+        "ingredients": [
+            {
+                "amount": 1,
+                "unit": "large",
+                "item": "Egg(s)"
+            },
+            {
+                "amount": 1.5,
+                "unit": "cups",
+                "note": "Measurement including egg",
+                "item": "Water 26.7 to 32.2 Degrees C (80-90F)"
+            },
+            {
+                "amount": 2,
+                "unit": "tbsp",
+                "item": "Firmly packed light brown sugar"
+            },
+            {
+                "amount": 2,
+                "unit": "tbsp",
+                "item": "Dry skim milk powder"
+            },
+            {
+                "amount": 2,
+                "unit": "tbsp",
+                "item": "Unsalted Butter or Margarine (cut into pieces)"
+            },
+            {
+                "amount": 1.5,
+                "unit": "tsp",
+                "item": "Ground cinnamon"
+            },
+            {
+                "amount": 1.5,
+                "unit": "tsp",
+                "item": "Salt"
+            },
+            {
+                "amount": 3.75,
+                "unit": "cups",
+                "item": "Bread flour"
+            },
+            {
+                "amount": 1.25,
+                "unit": "tsp",
+                "item": "Bread machine yeast"
+            },
+            {
+                "amount": 0.75,
+                "unit": "cups",
+                "item": "Raisins"
+            }
+        ],
+        "steps": [
+            "Place egg in measuring cup; add water to required amount. Pour into bread pan.",
+            "Add remaining ingredients, except raisins, into bread pan in the order listed.",
+            "Insert bread pan securely into baking chamber; close lid. Plug unit into wall outlet.",
+            "For 2-lb loaf, add the raisins manually at beep due to the amount required not fitting inside the dispenser.",
+            "Select SWEET. Choose loaf size and desired crust color. Press the START button.",
+            "If adding ingredients directly to the bread pan for 2-lb loaf, add raisins at 'add ingredient' beep.",
+            "The complete signal will sound when bread is done.",
+            "Using pot holders remove bread pan from baking chamber and carefully remove bread from pan. (If kneading paddle remains in bread, remove paddle once bread has cooled.)",
+            "Allow bread to cool on a wire rack until ready to serve (at least 20 minutes)"
+        ],
+        "tags": ["bread", "bread machine", "sweet", "quick"],
+        "makes": "1 Loaf"
+    },
+    {
+        "id": 3,
+        "name": "Pulse Tacos",
+        "ingredients": [
+            {
+                "amount": 2,
+                "unit": "tbsp",
+                "item": "Canola oil"
+            },
+            {
+                "amount": 2,
+                "unit": "count",
+                "item": "Onion(s)"
+            },
+            {
+                "amount": 6,
+                "unit": "cloves",
+                "note": "Thinly sliced",
+                "item": "Garlic"
+            },
+            {
+                "amount": 1,
+                "unit": "tbsp",
+                "item": "Chili powder"
+            },
+            {
+                "amount": 1,
+                "unit": "tsp",
+                "item": "Ground cumin"
+            },
+            {
+                "amount": 1,
+                "unit": "cups",
+                "item": "Green lentils"
+            },
+            {
+                "amount": 1,
+                "unit": "can",
+                "note": "540ml Can",
+                "item": "Chickpeas, drained and rinsed"
+            },
+            {
+                "amount": 2,
+                "unit": "cups",
+                "item": "Water"
+            },
+            {
+                "amount": 0.25,
+                "unit": "tsp",
+                "item": "salt"
+            },
+            {
+                "amount": 0.25,
+                "unit": "tsp",
+                "item": "Hot sauce"
+            }
+        ],
+        "steps": [
+            "Splash the canola oil into a large skillet or sautè pan over medium-high heat.",
+            "Toss in the onions, garlic, chili powder, and cumin.",
+            "Sautè until the vegetables soften and the spice flavors brighten, 3 to 4 minutes.",
+            "Stir in the lentils, chickpeas, water and salt.",
+            "Bring the works to a slow stead simmer.",
+            "Cover tightly and continue slowly cooking until the lentils are tender, 35 minutes or so.",
+            "Stir in the hot sauce."
+        ],
+        "tags": ["vegetarian", "semi-easy", "tasty"],
+        "makes": "4-6 servings."
+    }
+]

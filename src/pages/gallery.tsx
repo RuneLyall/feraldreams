@@ -39,8 +39,8 @@ export default function Gallery() {
     }, [selected, currentIndex]);
 
     return (
-        <>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 min-w-0">
+        <div className="w-[90%] max-w-7xl py-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 min-w-0 overflow-x-hidden">
                 {photos.length <= 0 ? (
                     <p>No Photo's Found Sorry</p>
                 ) : (
@@ -102,6 +102,6 @@ export default function Gallery() {
                     </p>
                 </div>
             )}
-        </>
+        </div>
     );
 }

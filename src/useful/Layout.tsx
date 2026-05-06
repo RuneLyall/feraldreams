@@ -13,8 +13,7 @@ export default function Layout() {
 
     const bgClass = getTheme(pathname);
     return (
-        <div
-            className={`flex flex-col min-h-dvh w-full overflow-x-hidden ${bgClass}`}>
+        <div className={` min-h-dvh w-full overflow-x-hidden ${bgClass}`}>
             <Navigation />
             <Outlet />
         </div>

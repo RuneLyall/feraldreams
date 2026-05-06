@@ -3,7 +3,7 @@ import Divide from "../useful/divider";
 
 export default function Landing() {
     return (
-        <main className="page-full bg-mist-700 flex-1 text-sky-aqua">
+        <main className="page-full bg-gunmetal flex-1 text-sky-aqua">
             <div className="page-container">
                 <h1 className="page-title">Welcome to my Den</h1>
                 <p className="page-text">

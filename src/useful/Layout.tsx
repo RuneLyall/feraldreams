@@ -5,9 +5,10 @@ export default function Layout() {
 
     function getTheme(path: string) {
         if (path.startsWith("/wiki")) return "bg-gunmetal text-teagreen";
-        if (path.startsWith("/glade")) return "bg-green-900 text-blue-300";
-        if (path.startsWith("/falling")) return "bg-indigo-950 text-indigo-200";
-        if (path.startsWith("/about")) return "bg-purple-950 text-gunmetal";
+        if (path.startsWith("/glade")) return "bg-pine-teal-900 text-blue-300";
+        if (path.startsWith("/falling"))
+            return "bg-platinum-900 text-indigo-200";
+        if (path.startsWith("/about")) return "bg-deep-lilac-800 text-gunmetal";
         return "bg-gunmetal text-gray-200";
     }
 

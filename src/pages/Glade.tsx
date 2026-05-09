@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import StyledLink from "../useful/StyledLink";
 export default function Glade() {
     return (
         <main className="page-full">
@@ -15,7 +16,14 @@ export default function Glade() {
                 <p className="page-text">
                     Wanted to make this section for a long long time, so here it
                     is, I'm not a pro photographer, I don't try to be, but I
-                    love nature, so, here. <Link to="/gallery">Gallery</Link>
+                    love nature, so, here.{" "}
+                    <StyledLink to="/Gallery">Gallery</StyledLink>
+                </p>
+                <p className="page-text">
+                    This next one is more just for me and my partner but yer
+                    welcome to take a look, it's basically just a{" "}
+                    <StyledLink to="/RecipeBook">Recipe Book</StyledLink>. It
+                    has a few of our favorites and stuff we want to someday try.
                 </p>
                 <p className="page-text">
                     In essence, this is where all the random projects, the

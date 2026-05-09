@@ -24,7 +24,7 @@ export default function App() {
                     <Route path="wiki" element={<Wiki />} />
                     <Route path="gallery" element={<Gallery />} />
                     <Route path="sandbox" element={<Password />} />
-                    <Route path="recipeboox" element={<RecipeBook />} />
+                    <Route path="recipebook" element={<RecipeBook />} />
                     <Route
                         path="CreatureDetails/:id"
                         element={<CreatureDetails />}

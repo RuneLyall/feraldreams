@@ -6,7 +6,7 @@ export default function RecipeBook() {
         <div className="w-[90%] max-w-7xl py-6">
             {recipes.map((recipe) => (
                 <div
-                    className="bg-orange-300 text-coffee-bean-800 border-2 p-2 m-2 rounded-lg shadow-lg drop-shadow-2xl"
+                    className="bg-[radial-gradient(ellipse_at_center,var(--color-amber-gold-400)_0%,var(--color-amber-400)_100%)] text-coffee-bean-800 border-2 p-2 m-2 rounded-lg shadow-lg drop-shadow-2xl"
                     key={recipe.id}>
                     <h1 className="text-2xl">{recipe.name}</h1>
                     <div className="h-px border-t border-green-600 w-[80%] mx-4" />
